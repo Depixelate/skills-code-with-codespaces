@@ -17,6 +17,7 @@
                 "index.html",
                 "README.md"
             ]
-        }
+        },
+        "postCreateCommand": "git fetch & git merge & echo 'Writing Code upon codespace creation!' >> codespace.md"
     }
 }
