@@ -2,5 +2,21 @@
     "name": "Codespace for skills!",
     "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
     "remoteUser": "codespace",
-    "overrideCommand": false
+    "overrideCommand": false,
+    "customizations":{
+        "vscode":{
+            "extensions": [
+                "github.copilot", 
+                "github.copilot-chat",
+                "ms-azuretools.vscode-azurefunctions"
+            ]
+        },
+        "codespaces": {
+            "openFiles": [
+                "codespace.md",
+                "index.html",
+                "README.md"
+            ]
+        }
+    }
 }
